@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>
+<title>Group-buttons</title>
+</head>
+<style>
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+display:flex;
+flex-direction:column;
+justify-content:center;
+height:100vh;
+align-items:center;
+gap:20px;
+}
+.main_container{
+width:700px;
+height:80px;
+box-shadow:0px 5px 5px black;
+display:flex;
+border-radius:5px;
+align-items:center;
+padding-left:15px;
+}
+.blue{
+overflow:hidden;
+border-radius:5px;
+width:170px;
+height:40px;
+display:flex;
+}
+.blue button:nth-child(1){
+width:50px;
+}
+.blue button:nth-child(2){
+width:90px;
+}
+.blue button:nth-child(3){
+width:75px;
+}
+.blue button{
+padding:5px;
+display:block;
+border:1px solid rgba(228, 232, 238,0.3);
+border:none;
+cursor:pointer;
+font-size:15px;
+font-weight:bold;
+color:white;
+background-color:#0A71FC;
+}
+
+.main_container-2{
+width:700px;
+height:80px;
+box-shadow:0px 5px 5px black;
+display:flex;
+border-radius:5px;
+align-items:center;
+padding-left:15px;
+}
+.colors{
+overflow:hidden;
+border-radius:5px;
+width:170px;
+height:40px;
+display:flex;
+}
+.colors button:nth-child(1){
+width:50px;
+}
+.colors button:nth-child(2){
+width:90px;
+}
+.colors button:nth-child(3){
+width:75px;
+}
+.colors .red{
+background-color:red;
+
+}
+.colors .yellow{
+background-color:#FFBF05;
+color:black;
+}
+.colors .green{
+background-color:#188754;
+}
+.colors button{
+padding:5px;
+display:block;
+border:1px solid rgba(228, 232, 238,0.3);
+cursor:pointer;
+font-size:15px;
+font-weight:bold;
+color:white;
+background-color:#0A71FC;
+}
+.main_container-3{
+width:700px;
+height:80px;
+box-shadow:0px 5px 5px black;
+display:flex;
+border-radius:5px;
+align-items:center;
+padding-left:15px;
+overflow:hidden;
+}
+.white{
+border:1px solid rgba(13, 108, 247,0.9);
+border-radius:5px;
+width:170px;
+height:40px;
+display:flex;
+overflow:hidden
+}
+.white button:nth-child(1){
+
+width:50px;
+}
+.white button:nth-child(2){
+width:90px;
+}
+.white button:nth-child(3){
+width:75px;
+}
+.white button{
+padding:5px;
+display:block;
+border:none;
+cursor:pointer;
+font-size:15px;
+font-weight:bold;
+color:#0D6CF7;
+background-color:white;
+border:1px solid rgba(13, 108, 247,0.9);	
+}
+.main_container-4{
+width:700px;
+height:80px;
+box-shadow:0px 5px 5px black;
+display:flex;
+border-radius:5px;
+align-items:center;
+padding-left:15px;
+}
+
+.numbers-1{
+width:110px;
+height:30px;
+display:flex;
+overflow:hidden;
+border-radius:5px;
+margin-right:10px;
+}
+.numbers-1 button{
+padding-right:10px;
+padding-left:10px;
+display:block;
+border:none;
+font-weight:bold;
+color:white;
+background-color:#1070FF;
+cursor:pointer;
+}
+.numbers-2{
+width:82px;
+height:30px;
+display:flex;
+overflow:hidden;
+border-radius:5px;
+margin-right:10px;
+
+}
+.numbers-2 button{
+padding-right:10px;
+padding-left:10px;
+display:block;
+border:none;
+font-weight:bold;
+color:white;
+background-color:#6C767E;
+cursor:pointer;
+}
+.numbers-3{
+width:28px;
+height:30px;
+display:flex;
+overflow:hidden;
+border-radius:5px;
+}
+.numbers-3 button{
+padding-right:10px;
+padding-left:10px;
+display:block;
+border:none;
+font-weight:bold;
+background-color:#0BC8E7;
+cursor:pointer;
+}
+.main_container-5{
+width:700px;
+height:80px;
+box-shadow:0px 5px 5px black;
+display:flex;
+border-radius:5px;
+align-items:center;
+padding-left:15px;
+}
+.link{
+width:204px;
+height:35px;
+display:flex;
+border-radius:5px;
+overflow:hidden;
+}
+.link a{
+text-decoration:none;
+background-color:#1C77FF;
+padding:10px;
+display:block;
+font-family:sans-serif;
+color:white;
+letter-spacing:1px;
+font-size:15px;
+}
+.link .active{
+display:inline-block;
+width:100px;
+background-color:#0959CD;
+}
+</style>
+<body>
+<div class="main_container">
+<div class="blue">
+<button >Left</button>
+<button>middle</button>
+<button>Right</button>
+</div>
+</div>
+<div class="main_container-2">
+<div class="colors">
+<button class="red">Left</button>
+<button class="yellow">middle</button>
+<button class="green">Right</button>
+</div>
+</div>
+<div class="main_container-3">
+<div class="white">
+<button>Left</button>
+<button>middle</button>
+<button>Right</button>
+</div>
+</div>
+<div class="main_container-4">
+<div class="numbers-1">
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>4</button>
+</div>
+<div class="numbers-2">
+<button>5</button>
+<button>6</button>
+<button>7</button>
+</div>
+<div class="numbers-3">
+<button>8</button>
+</div>
+</div>
+<div class="main_container-5">
+<div class="link">
+<a href="#" class="active">Active link</a>
+<a href="#">Link</a>
+<a href="#">Link</a>
+</div>
+</div>
+</body>
+</html>
